@@ -1,0 +1,110 @@
+/* Defaults */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: lightblue;
+    background-image: url("contact-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Skeleton */
+#form-container {
+    background-color: rgba(201, 199, 199, 0.918);
+    padding:10px 60px 15px 60px;
+    margin: 2% 20%;
+    border-radius: 5px;
+    height: 530px;
+}
+
+form#contact-form {
+    
+    display: flex;
+    flex-direction: column;
+
+    height: 350px;
+    
+ 
+}
+
+#contact-form > *{
+  
+    margin-bottom: 2%;
+}
+
+#contact-form >input,select {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    height: 40px;
+}
+
+
+#form-title {
+    text-align: center;
+    margin-bottom: 4%;
+    color: white;
+}
+
+
+#add-button {
+    background-color: white;
+}
+
+
+
+/* Form Content */
+
+
+/* Footer Content */
+
+footer#display-footer {
+    padding: 10px;
+    font-size: 18px;
+    margin:10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#display-footer > div {
+    background-color: rgba(235, 232, 232, 0.918);
+    height: 200px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 15px;
+   
+}
+
+.display-box {
+    position: relative;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.display-box > p {
+    position: absolute;
+    
+}
+
+.display-box > i { 
+    position: absolute;
+    top: 82%;
+    left: 90%;
+    transform: translate(50%, 50%);
+}
+
+.material-icons {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
